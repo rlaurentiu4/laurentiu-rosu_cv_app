@@ -22,19 +22,27 @@ h1 {
     border-left: 3px solid #2B2D3C;
     padding-left: 30px;
     font-size: 2.5rem;
+    font-family: @prim_font;
 }
 
 h2 {
     font-size: 2rem;
+    font-family: @prim_font;
+    font-weight: 400;
 }
 
 p {
     font-size: 2rem;
+    line-height: 1.5;
 }
 
 ul {
-    list-style: none;
     padding-inline-start: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .first_ctn {
@@ -44,6 +52,10 @@ ul {
 .big_mg {
     margin: 3vh 2vw;
     font-family: @sec-font;
+
+    @media (max-width: 768px) {
+        margin: 3vh 5vw;
+    }
 }
 
 .name_ctn {
@@ -99,15 +111,19 @@ ul {
 
     .pos_wrap {
         @media (max-width: 768px) {
-
             width: 100vw;
+
+            h3 {
+                margin: 0 7vw;
+            }
         }
 
         width: 60%;
-        font-family: @sec-font;
 
         h3 {
             font-size: 50px;
+            font-family: @prim_font;
+            font-weight: 400;
         }
     }
 
@@ -216,5 +232,16 @@ ul {
                 0 6px 8px rgba(219, 225, 234, 1), 0 8px 16px rgba(219, 225, 234, 1);
         }
     }
+}
 
+.bott_ctn {
+    width: 100%;
+    height: 20vh;
+    background-color: #2B2D3C;
+
+    .line {
+        width: 100%;
+        height: 0.7vh;
+        background-image: linear-gradient(-90deg, #FFCD76, #C02887);
+    }
 }

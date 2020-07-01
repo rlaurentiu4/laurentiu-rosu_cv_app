@@ -28,7 +28,9 @@ class Profile extends React.Component {
             <div>
               <div className="disp_flex">
                 <img src={phIcon} className="icon" />
-                <h4>{data.getPhoneNumber()}</h4>
+                <a href={data.getPhoneNumber()}>
+                  <h4>{data.getPhoneNumber()}</h4>
+                </a>
               </div>
               <div className="disp_flex">
                 <img src={mailIcon} className="icon" />

@@ -18,6 +18,9 @@ class App extends React.Component {
         <div>
           <Experience />
         </div>
+        <div className="bott_ctn center_flex">
+          <div className="line"></div>
+        </div>
       </React.Fragment>
     );
   }

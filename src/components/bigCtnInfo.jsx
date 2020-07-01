@@ -12,8 +12,8 @@ class BigInfo extends React.Component {
         <ul>
           <li>
             <h2>{data.company}</h2>
-            <p>{data.date}</p>
             <p>{data.position}</p>
+            <p>{data.date}</p>
             <p>{data.exp_description}</p>
             <strong>
               <p>Key Learning Point</p>
