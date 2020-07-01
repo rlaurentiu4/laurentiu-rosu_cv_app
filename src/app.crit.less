@@ -148,18 +148,26 @@ a {
 }
 
 .user_socials_ctn {
-    display: flex;
-    flex-direction: column;
-
     @media (max-width: 768px) {
         flex-direction: unset;
     }
 
-    .social_icon {
-        width: 25%;
-        margin: 25px 25px;
-    }
+    display: flex;
+    flex-direction: column;
+
 }
+
+.social_icon {
+
+    width: 25%;
+    margin: 25px 25px;
+
+    @media (max-width: 768px) {
+        width: 50%;
+    }
+
+}
+
 
 .pad_bott {
     padding-bottom: 25px;
