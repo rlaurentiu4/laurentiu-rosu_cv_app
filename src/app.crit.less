@@ -33,7 +33,7 @@ h2 {
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.5;
 }
 
@@ -196,6 +196,10 @@ a {
     }
 
     .exp_ctn {
+        @media (max-width: 768px) {
+            border-left: unset;
+        }
+
         border-left: 3px solid #2B2D3C;
         height: auto;
         padding: 0 0 10vh;
