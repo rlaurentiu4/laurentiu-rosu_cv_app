@@ -8,7 +8,7 @@ class Projects extends React.Component {
   renderProjects() {
     let data = this.props.userInfo;
     const listItems = data.map((data) => (
-      <div key={data.id} className="mg_bott anim_fade-in">
+      <div key={data.id} className="big_mg mg_bott anim_fade-in">
         <ul>
           <div class="disp_flex">
             <h2>{data.id}.</h2>

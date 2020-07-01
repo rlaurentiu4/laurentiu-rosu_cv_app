@@ -25,7 +25,7 @@ class Education {
 
 const eduLaur = new Education(
   'Mathematics - Computer Science',
-  '2010-2014',
+  '2010 - 2014',
   'Colegiul "Stefan Odobleja"',
   'Craiova'
 );
