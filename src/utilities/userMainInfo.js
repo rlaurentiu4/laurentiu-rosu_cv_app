@@ -93,13 +93,13 @@ const laurentiu = new UserMainInfo(
   'Bucharest',
   '04.06.1995',
   ProfilePic,
-  'www.google.ro',
+  '',
   [
     'Living with purpose and enjoying every state of mind that a conversation or an opportunity can provide is the most beneficial way of living. Passionate, persevering, and a genuine wish to grow and help people along the way as much as possible.',
   ],
-  'https://www.host.ro',
-  'https://www.host.ro',
-  'https://www.host.ro'
+  'https://www.linkedin.com/in/lauren%C8%9Biu-ro%C8%99u-4799a6a8/',
+  'https://www.behance.net/laurentiurosu',
+  'https://dribbble.com/laurentiurosu'
 );
 
 export default laurentiu;
