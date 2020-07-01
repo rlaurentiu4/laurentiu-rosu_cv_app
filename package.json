@@ -2,9 +2,12 @@
   "name": "cv-template",
   "version": "0.1.0",
   "main": "index.js",
+  "homepage": "https://rlaurentiu4.github.io/laurentiu-rosu_cv_app/",
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.config.dev.js",
-    "build": "webpack --config webpack.config.prod.js"
+    "build": "webpack --config webpack.config.prod.js",
+    "predeploy": "npm build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "cv-template",
