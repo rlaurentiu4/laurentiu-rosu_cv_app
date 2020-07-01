@@ -7,7 +7,7 @@ class ToolsAndTech extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="big_mg pad_bott">
+        <div className="big_mg pad_bott anim_fade-in">
           <h1>Tools & Technologies</h1>
           <div>
             <h2>{this.props.userInfo.getfTool()}</h2>

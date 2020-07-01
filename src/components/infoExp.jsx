@@ -8,7 +8,7 @@ class InfoExp extends React.Component {
   generateExp() {
     let data = this.props.userInfo;
     const listItems = data.map((data) => (
-      <div key={data.id} className="big_mg pad_bott">
+      <div key={data.id} className="big_mg pad_bott anim_fade-in">
         <ul>
           <li key={data.id} value={data}>
             <h2>{data.company}</h2>
@@ -29,7 +29,7 @@ class InfoExp extends React.Component {
     let expData = this.generateExp();
     return (
       <React.Fragment>
-        <div className="big_mg">
+        <div className="big_mg anim_fade-in">
           <h1>Experience</h1>
           <div>{expData}</div>
         </div>

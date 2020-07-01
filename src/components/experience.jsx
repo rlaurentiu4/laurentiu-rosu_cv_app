@@ -26,7 +26,7 @@ class Experience extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <section className="first_section_wrap">
+        <section className="first_section_wrap anim_fade-in">
           <div className="ind_tools_ctn">
             <IndKnowledge userInfo={inKnLaur} />
             <ToolsAndTech userInfo={laurTools} />

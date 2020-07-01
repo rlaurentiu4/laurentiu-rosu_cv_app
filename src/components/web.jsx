@@ -8,7 +8,7 @@ class Web extends React.Component {
   generateWeb() {
     let data = this.props.userInfo;
     const listWeb = data.map((data) => (
-      <div key={data.id} class="">
+      <div key={data.id} class="anim_fade-in">
         <a href={data.site} target="_blank" rel="noreferrer">
           <img src={data.logo} alt="logo" className="web_icon" />
         </a>

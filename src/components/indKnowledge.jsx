@@ -8,7 +8,7 @@ class IndKnowledge extends React.Component {
     let data = this.props.userInfo;
     return (
       <React.Fragment>
-        <div className="big_mg pad_bott">
+        <div className="big_mg pad_bott anim_fade-in">
           <h1>Industry Knowledge</h1>
           <div>
             <h2>{data.getFirstSkill()}</h2>
