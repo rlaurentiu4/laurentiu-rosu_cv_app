@@ -131,20 +131,42 @@ a {
     .wrap_contact_info {
         width: 30%;
     }
-
-    .avatar_wrap {
-        background-color: #2B2D3C;
-        margin: 0 auto;
-    }
-
 }
 
-.profile_pic {
-    width: 20vw;
-    border: 10px solid #2B2D3C;
-
+.avatar_wrap {
     @media (max-width: 768px) {
-        width: 80vw;
+        margin: 40px 0px;
+        background: unset;
+    }
+
+    width: 27vw;
+    height: 32vh;
+    background: linear-gradient(-45deg, #FFCD76, #C02887, #FFCD76, #C02887);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+
+    .profile_pic {
+        width: 20vw;
+        border: 5px solid #2B2D3C;
+
+        @media (max-width: 768px) {
+            width: 80vw;
+        }
+    }
+}
+
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
     }
 }
 
