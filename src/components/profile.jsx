@@ -30,7 +30,7 @@ class Profile extends React.Component {
                 <div className="disp_flex">
                   <img src={phIcon} className="icon" />
                   <a href="tel:0773862587">
-                    <h4>{data.getPhoneNumber()}</h4>
+                    <h4>0773862587</h4>
                   </a>
                 </div>
                 <div className="disp_flex">
