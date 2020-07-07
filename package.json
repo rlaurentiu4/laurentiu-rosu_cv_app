@@ -2,7 +2,7 @@
   "name": "cv-template",
   "version": "0.1.0",
   "main": "index.js",
-  "homepage": "https://rlaurentiu4.github.io/laurentiu-rosu_cv_app/",
+  "homepage": "https://rlaurentiu4.github.io/laurentiu-rosu_cv_app/dist",
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.prod.js",
