@@ -36,6 +36,13 @@ const expData = [
       'Develop and improve user journeys; ',
     ],
   },
+  {
+    id: 5,
+    company: 'Freelancer',
+    date: '01.06.2020 - Present',
+    position: 'Graphic Design & Front-End Development',
+    smallData: [''],
+  },
 ];
 
 export default expData;
