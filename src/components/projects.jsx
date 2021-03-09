@@ -19,7 +19,7 @@ class Projects extends React.Component {
             <strong>
               <h3>Things I learned and contributed in this project:</h3>
             </strong>
-            <p>-{data.learnings_project}</p>
+            <p>{data.learnings_project}</p>
           </li>
         </ul>
       </div>

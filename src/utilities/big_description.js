@@ -17,10 +17,10 @@ const bigDescripion = [
     date: '15.09.2018 - 31.01.2019',
     position: 'Graphic Designer',
     exp_description: [
-      'As times goes, life requires from us to “upgrade” ourselves and the ones that are with us. It was an wonderful experience but nothing that good last forever. We had a lot of small projects, around 25-30 logo designs per day and business cards/banners.',
+      'As times goes, life requires from us to “upgrade” ourselves and the ones that are with us. It was an wonderful experience but nothing that good last forever. We had a lot of small projects, around 25-30 logo designs per day, business cards and banners.',
     ],
     learning_point: [
-      'Working with a team of designers  - EGO it’s something that I truly understood in this experience and how not to get attached to my designs, it wasn’t about me and my skills, it was about people and what they want not what I want.',
+      'Working with a team of designers  - EGO it’s something that I truly understood in this experience and how not to get attached to my designs, it wasn’t about me and my skills, it was about customers and what they want not what I want.',
     ],
   },
   {

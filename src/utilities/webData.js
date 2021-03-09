@@ -4,6 +4,7 @@ const serveLogo = require('../assets/images/serve.svg');
 const armsLogo = require('../assets/images/logo_arms_mobile.png');
 const cvLogo = require('../assets/images/cv_logo.png');
 const sharevisionLogo = require('../assets/images/sharevision_log.png');
+const meditateLogo = require('../assets/images/meditateLogo.png');
 
 const webData = [
   { id: 1, site: 'https://badsi.ro', logo: badsiLogo },
@@ -12,6 +13,7 @@ const webData = [
   { id: 4, site: 'https://arms.world/', logo: armsLogo },
   { id: 5, site: 'https://catalin-voicu.ro/', logo: cvLogo },
   { id: 6, site: 'http://sharevision.ro/en/home/', logo: sharevisionLogo },
+  { id: 7, site: 'https://meditate.calatoriainimii.ro/' , logo: meditateLogo },
 ];
 
 export default webData;

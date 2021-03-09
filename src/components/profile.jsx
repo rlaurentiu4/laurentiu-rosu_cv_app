@@ -16,10 +16,9 @@ class Profile extends React.Component {
     let data = this.props.userInfo;
     return (
       <React.Fragment>
-        <section>
           <div className="big_mg name_ctn anim_fade-in ">
-            <p>{data.getfName()}</p>
-            <p class="grad_text">{data.getsName()}</p>
+            <p class="grad_text">{data.getfName()}</p>
+            <p>{data.getsName()}</p>
           </div>
           <div>
             <div className="info_ctn anim_slide-in">
@@ -66,7 +65,6 @@ class Profile extends React.Component {
             <h1>Profile</h1>
             <p>{data.getDescription()}</p>
           </div>
-        </section>
       </React.Fragment>
     );
   }

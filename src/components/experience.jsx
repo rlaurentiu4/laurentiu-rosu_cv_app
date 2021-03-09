@@ -8,6 +8,7 @@ import Education from './education.jsx';
 import InfoExp from './infoExp.jsx';
 import BigInfo from './bigCtnInfo.jsx';
 import Projects from './projects.jsx';
+import Freelance from './freelanceExp.jsx';
 import Web from './web.jsx';
 
 //data
@@ -18,6 +19,8 @@ import expData from '../utilities/expData.js';
 import DescriptionBig from '../utilities/big_description.js';
 import dataProjects from '../utilities/projects.js';
 import webData from '../utilities/webData.js';
+import freelanceExp from '../utilities/freelancedata.js';
+
 
 class Experience extends React.Component {
   constructor(props) {
@@ -26,7 +29,7 @@ class Experience extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <section className="first_section_wrap anim_fade-in">
+        <div className="first_section_wrap anim_fade-in">
           <div className="ind_tools_ctn">
             <IndKnowledge userInfo={inKnLaur} />
             <ToolsAndTech userInfo={laurTools} />
@@ -35,14 +38,16 @@ class Experience extends React.Component {
           <div className="exp_ctn">
             <InfoExp userInfo={expData} />
           </div>
-        </section>
-        <section className="big_info_ctn big_mg">
+        </div>
+        <div className="big_info_ctn big_mg">
           <BigInfo userInfo={DescriptionBig} />
           <h1>Projects Description:</h1>
           <Projects userInfo={dataProjects} />
+          <h1>Freelancer Experience:</h1>
+          <Freelance userInfo={freelanceExp}/>
           <h1>Websites:</h1>
           <Web userInfo={webData} />
-        </section>
+        </div>
       </React.Fragment>
     );
   }

@@ -85,8 +85,8 @@ class UserMainInfo {
 }
 
 const laurentiu = new UserMainInfo(
-  'Laurentiu',
   'Rosu',
+  'Laurentiu - Ionut',
   'Front-End Developer',
   '0773862587',
   'rlaurentiu4@gmail.com',
