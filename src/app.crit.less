@@ -243,7 +243,11 @@ a {
 
 .big_info_ctn {
     font-family: @sec-font;
-
+    @media (max-width: 768px) { 
+        h2 {
+            font-size: 24px;
+        }
+    }
     p {
         font-size: 1.5rem;
         line-height: 1.5;
