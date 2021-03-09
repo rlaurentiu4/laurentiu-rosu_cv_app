@@ -11,7 +11,7 @@ class Freelance extends React.Component {
             <div key={data.id} className="big_mg mg_bott anim_fade-in">
                 <ul>
                     <div className="flex_row">
-                        <h2>{data.id}.{data.name_project}</h2>
+                        <h2>{data.id}. {data.name_project}</h2>
                         <h3>Date: {data.date}</h3>
                     </div>
                     <li>
