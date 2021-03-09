@@ -3,7 +3,7 @@ const freelanceData = [
     id: 1,
     name_project: 'Meditate.Calatoriainimii.ro',
     date: 'August 2020',
-    description_project: ['User Interface Design.'],
+    description_project: ['User Interface Design done in AdobeXD.'],
   },
   {
     id: 2,
