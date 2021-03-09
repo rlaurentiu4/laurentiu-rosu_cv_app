@@ -7,14 +7,6 @@ const freelanceData = [
   },
   {
     id: 2,
-    name_project: 'Serve.ro',
-    date: 'October 2020 - Ongoing',
-    description_project: [
-      'Maintaing Serve website and creating newsletters, pages and promotions needed.',
-    ],
-  },
-  {
-    id: 3,
     name_project: 'Wikismarts',
     date: 'August 2020 - Ongoing',
     description_project: [
@@ -23,11 +15,19 @@ const freelanceData = [
   },
 
   {
-    id: 4,
+    id: 3,
     name_project: 'RoundPeak',
     date: 'September 2020 - Ongoing',
     description_project: [
       'Visual Identity and Dashboard for a coaching platform',
+    ],
+  },
+  {
+    id: 4,
+    name_project: 'Serve.ro',
+    date: 'October 2020 - Ongoing',
+    description_project: [
+      'Maintaing Serve website and creating newsletters, pages and promotions needed.',
     ],
   },
 ];
