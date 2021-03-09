@@ -95,7 +95,7 @@ const laurentiu = new UserMainInfo(
   ProfilePic,
   '',
   [
-    'Living with purpose and enjoying every state of mind that a conversation or an opportunity can provide is the most beneficial way of living. Passionate, persevering, and a genuine wish to grow and help people along the way as much as possible. Playing with colors, shapes, or just some User Interfaces for the last years has changed me as a human. Making Logos for brands or just trying to figure out how I can make “that function” work has never been more fulfilling. “A sweet mix” of a Graphic Designer and a Frontend Developer.',
+    'Living with purpose and enjoying every state of mind that a conversation or an opportunity can provide is the most beneficial way of living. Passionate, persevering, and a genuine wish to grow and help people along the way as much as possible. Playing with colors, shapes, or just some User Interfaces for the last years have changed me as a human. Making Logos for brands or just trying to figure out how I can make “that function” work has never been more fulfilling. “A sweet mix” of a Graphic Designer and a Frontend Developer.',
   ],
   'https://www.linkedin.com/in/lauren%C8%9Biu-ro%C8%99u-4799a6a8/',
   'https://www.behance.net/laurentiurosu',

@@ -43,7 +43,7 @@ class Experience extends React.Component {
           <h1>Freelancer Experience:</h1>
           <Freelance userInfo={freelanceExp}/>
           <BigInfo userInfo={DescriptionBig} />
-          <h1>Projects Description:</h1>
+          <h1>Front-End projects description at Full-Swing Art:</h1>
           <Projects userInfo={dataProjects} />
           <h1>Websites:</h1>
           <Web userInfo={webData} />
